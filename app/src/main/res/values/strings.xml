@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Exercise6</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_add">ADD FRIEND</string>
+    <string name="main_list">LIST ALL FRIENDS</string>
+    <string name="main_name_hint">e.g. Darran</string>
+    <string name="main_search">SEARCH FRIENDS</string>
+
+    <string name="pref_category">Friend Preferences</string>
+    <string name="pref_format">Date Format</string>
+    <string name="pref_format_hint">dd-MM-yyyy</string>
+    <string name="pref_delete">can delete Friends</string>
+
+    <string name="title_activity_add_friend">addFriendActivity</string>
+
+    <string name="add_friend_name">Name:</string>
+    <string name="add_friend_occupation">Occupation:</string>
+    <string name="add_friend_city">City:</string>
+    <string name="add_friend_cancel">Cancel</string>
+    <string name="add_friend_confirm">Add Friend</string>
+
+    <string name="title_activity_list_all">ListAllActivity</string>
+</resources>

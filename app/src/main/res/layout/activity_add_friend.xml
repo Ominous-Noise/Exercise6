@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.id12020261.exercise6.addFriendActivity"
+    android:id="@+id/addFriend">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/add_friend_name"
+        android:id="@+id/add_friend_name_textView"
+        android:layout_above="@+id/add_friend_occupation_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/add_friend_occupation"
+        android:id="@+id/add_friend_occupation_textView"
+        android:layout_alignBottom="@+id/add_friend_occupation_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/add_friend_city"
+        android:id="@+id/add_friend_city_textView"
+        android:layout_below="@+id/add_friend_occupation_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_friend_name_editText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/add_friend_name_textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_friend_occupation_editText"
+        android:layout_below="@+id/add_friend_name_editText"
+        android:layout_toRightOf="@+id/add_friend_occupation_textView"
+        android:layout_alignRight="@+id/add_friend_name_editText"
+        android:layout_alignEnd="@+id/add_friend_name_editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_friend_city_editText"
+        android:layout_alignBottom="@+id/add_friend_city_textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/add_friend_city_textView"
+        android:layout_toEndOf="@+id/add_friend_city_textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_friend_cancel"
+        android:id="@+id/add_friend_cancel_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_friend_confirm"
+        android:id="@+id/add_friend_confirm_button"
+        android:layout_alignTop="@+id/add_friend_cancel_button"
+        android:layout_alignRight="@+id/add_friend_occupation_editText"
+        android:layout_alignEnd="@+id/add_friend_occupation_editText" />
+</RelativeLayout>
